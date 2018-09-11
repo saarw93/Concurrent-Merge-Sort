@@ -16,5 +16,5 @@ ex3q2s.o: ex3q2s.c
 ex3q2c.o: ex3q2c.c
 	gcc -c ex3q2c.c
 ex3q3.o: ex3q3.c
-	gcc	-c ex3q3.c -lpthread -lm
+	gcc -c ex3q3.c -lpthread -lm
 
