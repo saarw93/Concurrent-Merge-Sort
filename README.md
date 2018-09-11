@@ -1,10 +1,8 @@
-saarwe
-204175137 Saar Weitzman
 
 This software is divided into 3 assignments:
 assignment 1: a concurrent merge sort using shared memory
 assignment 2: a concunrrent merge sort using sockets with server and clients
-assignment 1: a concurrent merge sort using threads
+assignment 3: a concurrent merge sort using threads
 
 
 how to install assignment 1:
