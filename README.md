@@ -52,6 +52,7 @@ location using "cd" command (confirm it using ls command) and type
 
 
 ------------------assignment 1 global variables -------------------------------
+
 int array_size - the size of the array
 int parallelism - the level of parallelism
 int divide_to_forks - flag to know when to use fork
@@ -59,6 +60,7 @@ int shm_id - the shared memory id
 
 
 ------------------assignment 1 functions -------------------------------
+
 * incase of memory allocation failure, program will exit with
 message "Memory allocation failed"
 
@@ -106,12 +108,14 @@ leak, no leak was found.
 
 
 ------------------assignment 2 server global variables -------------------------------
+
 int parallelism - the level of parallelism
 int array_size - the size of the array
 int sub_array_size- the size of the clients' arrays 
 
 
-------------------assignment 2 server functions -------------------------------
+------------------assignment 2 server functions -------------------------------------
+
 * incase of memory allocation failure, program will exit with
 message "Memory allocation failed"
 
@@ -172,7 +176,8 @@ leak, no leak was found.
 
 
 
-------------------assignment 2 client functions -------------------------------
+------------------assignment 2 client functions ----------------------------------
+
 * incase of memory allocation failure, program will exit with
 message "Memory allocation failed"
 
@@ -204,6 +209,7 @@ leak, no leak was found.
 
 
 -----------------assignment 3 global variables----------------------------------
+
 int array_size - the size of the array
 int parallelism - the level of parallelism
 int  divide_to_threads - flag to know when to make the threads
@@ -219,8 +225,8 @@ has the arguments of int left, int right for the start and end index of the arra
 
 
 ----------------------assignment 3 functions -------------------------------
-* incase of memory allocation failure, program will exit with message "Memory allocation failed"
 
+* incase of memory allocation failure, program will exit with message "Memory allocation failed"
 
 int* input_file(int, char**);
 input: int - argument counter, char** - list in arguments
